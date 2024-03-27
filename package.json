@@ -1,0 +1,19 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start:dev:build": "tsc -w",
+    "start:dev:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:dev:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
